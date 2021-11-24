@@ -1,2 +1,2 @@
-idf_component_register(SRCS "station_example_main.c"
+idf_component_register(SRCS "watering_node.c"
                     INCLUDE_DIRS ".")
