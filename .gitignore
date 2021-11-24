@@ -1,3 +1,24 @@
+#user defined
+secrets.hpp
+build/
+
+# Created by https://www.toptal.com/developers/gitignore/api/vscode
+# Edit at https://www.toptal.com/developers/gitignore?templates=vscode
+
+### vscode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+c_cpp_properties.json
+# End of https://www.toptal.com/developers/gitignore/api/vscode
+
+# Created by https://www.toptal.com/developers/gitignore/api/c++,platformio
+# Edit at https://www.toptal.com/developers/gitignore?templates=c++,platformio
+
+### C++ ###
 # Prerequisites
 *.d
 
@@ -10,6 +31,12 @@
 # Precompiled Headers
 *.gch
 *.pch
+
+# Linker files
+*.ilk
+
+# Debugger Files
+*.pdb
 
 # Compiled Dynamic libraries
 *.so
@@ -30,3 +57,13 @@
 *.exe
 *.out
 *.app
+
+### PlatformIO ###
+.pioenvs
+.piolibdeps
+.clang_complete
+.gcc-flags.json
+.pio
+
+# End of https://www.toptal.com/developers/gitignore/api/c++,platformio
+
