@@ -1,3 +1,5 @@
+sdkconfig.old
+
 #user defined
 secrets.hpp
 build/
