@@ -13,7 +13,7 @@ jobs:
       with:
         submodules: 'recursive'
     - name: Make mock secrets.hpp
-      run: mv src/secrets.hpp.example src/secrets.hpp
+      run: mv main/secrets.hpp.example main/secrets.hpp
     - name: esp-idf build
       uses: espressif/esp-idf-ci-action@latest
     
