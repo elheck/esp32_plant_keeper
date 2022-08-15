@@ -1,3 +1,5 @@
+# This repository is discontinued for now, because I want to the same thing in rust, see [plantrs](https://github.com/elheck/plantrs)
+
 # WiFi station example
 
 (See the README.md file in the upper level 'examples' directory for more information about examples.)
